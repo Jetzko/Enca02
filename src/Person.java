@@ -1,10 +1,10 @@
 import java.io.*;
 
 public class Person {
-    String name;
-    String surname;
-    double height;
-    int age;
+    private  String name;
+    private String surname;
+    private double height;
+    private int age;
     public String getName(){return name;}
     public void setName(String N) {
         this.name = N;
@@ -21,14 +21,5 @@ public class Person {
     public void setAge(int A){
         this.age = A;
     }
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", height=" + height +
-                ", age=" + age +
-                '}';
     }
-}
+
