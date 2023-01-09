@@ -18,11 +18,5 @@ public class Start {
         int age = scanner.nextInt();
         person1.setAge(age);
         System.out.println("Thank you " + name + " " + surname + ". You are " + age + " years old and you are " + height + "cm tall!" );
-
-        /*person1.setName("Luca");
-        person1.setSurname("Alfieri");
-        person1.setHeight(170.24);
-        person1.setAge(31);
-        System.out.println(person1);*/
     }
 }
